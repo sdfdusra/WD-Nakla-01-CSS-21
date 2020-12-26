@@ -1,0 +1,107 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* Mobile Fast  */
+/* .boxOuter{
+    width: 1200px;
+    max-width: 100%;
+    background-color: gray;
+    padding: 10px 15px;
+    margin: 100px auto;
+}
+.box{
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.box1{
+    background-color: green;
+    color: honeydew;
+}
+.box2{
+    background-color: blue;
+    color: white;
+}
+.box3{
+    background-color: tomato;
+    color: black;
+}
+.box4{
+    background-color: red;
+    color: #fff;
+}
+@media (min-width: 440px){
+    .boxOuter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 50%;
+    }
+}
+@media (min-width: 660px){
+    .box{
+        width: 33.333%;
+    }
+}
+@media (min-width: 992px){
+    .box{
+        width: 25%;
+    }
+} */
+
+
+/* Desktop Fast Design  */
+.boxOuter{
+    width: 1200px;
+    max-width: 100%;
+    background-color: gray;
+    padding: 10px 15px;
+    margin: 100px auto;
+    display: flex;
+}
+.box{
+    width: 25%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.box1{
+    background-color: green;
+    color: honeydew;
+}
+.box2{
+    background-color: blue;
+    color: white;
+}
+.box3{
+    background-color: tomato;
+    color: black;
+}
+.box4{
+    background-color: red;
+    color: #fff;
+}
+@media(max-width: 992px){
+    .boxOuter{
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 33.333%;
+    }
+}
+@media(max-width: 660px){
+    .box{
+        width: 50%;
+    }
+}
+@media(max-width: 440px){
+    .box{
+        width: 100%;
+    }
+}
